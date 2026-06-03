@@ -56,6 +56,12 @@ class PromptOptimizer:
                     "step": 1,
                 }),
             },
+            "optional": {
+                "optional_prompt": ("STRING", {
+                    "multiline": True,
+                    "forceInput": True,
+                }),
+            },
         }
     
     RETURN_TYPES = ("STRING", "STRING",)
@@ -197,12 +203,18 @@ class PromptOptimizer:
         
         return valid_anchors
     
-    def optimize_prompt(self, prompt: str, style_mode: str = "auto", sample_count: int = 5) -> Tuple[str, str]:
+    def optimize_prompt(self, prompt: str, style_mode: str = "auto", sample_count: int = 5, optional_prompt: str = None) -> Tuple[str, str]:
         """
         优化提示词的主函数
         """
+        # 如果有可选输入，优先使用可选输入
+        if optional_prompt is not None and optional_prompt.strip():
+            input_prompt = optional_prompt
+        else:
+            input_prompt = prompt
+        
         # 提取关键词
-        keywords = self.extract_keywords(prompt)
+        keywords = self.extract_keywords(input_prompt)
         
         # 找到匹配样本
         samples = self.find_matching_samples(keywords, sample_count)
@@ -211,7 +223,7 @@ class PromptOptimizer:
         style_anchors = self.extract_style_anchors(samples)
         
         # 优化提示词
-        optimized = self._rewrite_prompt(prompt, style_anchors, style_mode)
+        optimized = self._rewrite_prompt(input_prompt, style_anchors, style_mode)
         
         # 准备风格锚点输出
         matched_styles_str = ", ".join(style_anchors) if style_anchors else "未找到匹配的风格锚点"
