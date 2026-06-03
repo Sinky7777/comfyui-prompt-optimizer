@@ -1,0 +1,721 @@
+{
+  "version": "1.0",
+  "description": "风格技法标签知识库 - 基于训练数据自动生成",
+  "styles": [
+    {
+      "id": "3d_rendering",
+      "name": "3D 渲染",
+      "name_en": "3D Rendering",
+      "keywords": [
+        "3d rendering",
+        "3d render",
+        "three-dimensional",
+        "3d"
+      ],
+      "dimensions": {
+        "category": "rendering",
+        "medium": "digital",
+        "complexity": "high"
+      },
+      "examples": [
+        "This is a 3D character portrait in a soft plastic figure style, where the solid black background greatly accentuates the subject's three-dimensional p",
+        "This is a 3D character portrait featuring a soft plastic ball-jointed doll style, showcasing a healing outdoor scene of a little girl holding a small ",
+        "This is a half-body double portrait featuring the visual aesthetic of soft plastic vinyl dolls. The main subjects are two short-haired girls standing "
+      ]
+    },
+    {
+      "id": "american_comic_3d",
+      "name": "美国漫画风格3D渲染",
+      "name_en": "American Comic Style 3D Rendering",
+      "keywords": [
+        "american comic",
+        "comic style",
+        "comic book"
+      ],
+      "dimensions": {
+        "category": "rendering",
+        "medium": "digital",
+        "style_type": "comic"
+      },
+      "examples": []
+    },
+    {
+      "id": "photorealistic",
+      "name": "照片级写实",
+      "name_en": "Photorealistic",
+      "keywords": [
+        "photorealistic",
+        "photo realistic",
+        "realistic photo"
+      ],
+      "dimensions": {
+        "category": "photography",
+        "medium": "photoreal",
+        "realism": "high"
+      },
+      "examples": [
+        "This is a street-style photography image featuring trendy toy glaze makeup dolls, transforming a slice-of-life daily scene into a playful miniature wo",
+        "This is a close-up street photography shot of a hand-held doll, presenting a bizarre yet streetwear-mixed visual atmosphere in the style of a tooth-fl",
+        "The image presents a car interior portrait of a woman in a low saturation pseudo-3D collage style. A woman wearing a bright green tank top is centered"
+      ]
+    },
+    {
+      "id": "realistic_human",
+      "name": "真实人物肖像",
+      "name_en": "Realistic Human Portrait",
+      "keywords": [
+        "realistic human",
+        "realistic person",
+        "human portrait"
+      ],
+      "dimensions": {
+        "category": "portrait",
+        "subject": "human",
+        "realism": "high"
+      },
+      "examples": [
+        "This is an indoor character portrait exuding the vibe of a soft plastic doll, capturing a highly stylized and fun slice-of-life moment. The girl in th",
+        "A hand holding a brown \"tooth plush monster\" plush toy with realistic human teeth, wearing a black shirt, against a graffiti background.",
+        "This is a live-action still life image in the \"Toothy Plush Monster\" style, showing a human hand holding a peculiar plush doll. The doll is covered in"
+      ]
+    },
+    {
+      "id": "anime_style",
+      "name": "动漫风格",
+      "name_en": "Anime Style",
+      "keywords": [
+        "anime style",
+        "anime",
+        "manga"
+      ],
+      "dimensions": {
+        "category": "illustration",
+        "medium": "digital",
+        "origin": "japanese"
+      },
+      "examples": [
+        "This is an illustration full of retro dramatic conflict, showcasing the typical visual temperament of a Showa era children's book. The image presents "
+      ]
+    },
+    {
+      "id": "cartoon_style",
+      "name": "卡通风格",
+      "name_en": "Cartoon Style",
+      "keywords": [
+        "cartoon style",
+        "cartoon"
+      ],
+      "dimensions": {
+        "category": "illustration",
+        "medium": "digital",
+        "style_type": "cartoon"
+      },
+      "examples": []
+    },
+    {
+      "id": "oil_painting",
+      "name": "油画风格",
+      "name_en": "Oil Painting",
+      "keywords": [
+        "oil painting",
+        "oil paint"
+      ],
+      "dimensions": {
+        "category": "painting",
+        "medium": "oil",
+        "texture": "brush"
+      },
+      "examples": [
+        "This is a still-life portrait photography featuring a plush and stitched handmade rag doll style. At the center is a handcrafted doll mimicking the pa",
+        "A portrait of a girl in a uniform in a low-saturation pseudo-3D collage style. She stands in front of blue lockers, with her edges having a flat, pape"
+      ]
+    },
+    {
+      "id": "watercolor",
+      "name": "水彩风格",
+      "name_en": "Watercolor",
+      "keywords": [
+        "watercolor",
+        "water color"
+      ],
+      "dimensions": {
+        "category": "painting",
+        "medium": "watercolor",
+        "texture": "wash"
+      },
+      "examples": [
+        "This is an animal group illustration with a Japanese collage style, depicting a flock of cute puffins resting on a cliff by the sea. The image present",
+        "This landscape image with a Japanese paper collage style depicts a quiet coastal corner, filled with the interesting, handmade vibe of everyday life. ",
+        "An interior bedroom sketch featuring the 'san gou su' (loose outline quick sketch) style. The image uses loose, discontinuous thick pencil-textured li"
+      ]
+    },
+    {
+      "id": "sketch_style",
+      "name": "素描风格",
+      "name_en": "Sketch Style",
+      "keywords": [
+        "sketch style",
+        "sketch",
+        "pencil drawing"
+      ],
+      "dimensions": {
+        "category": "drawing",
+        "medium": "pencil",
+        "finish": "rough"
+      },
+      "examples": [
+        "This is an indoor still-life painting with a Japanese collage style, presenting a cozy dining table corner full of the fun, lived-in feel of handmade ",
+        "This is an indoor still-life painting showcasing a Japanese collage style, depicting a sewing work corner full of handmade charm and a sense of daily ",
+        "This is a still-life image of crafting tools showcasing a Japanese paper collage style. Viewed from above, various sewing supplies are scattered acros"
+      ]
+    },
+    {
+      "id": "pixel_art",
+      "name": "像素艺术",
+      "name_en": "Pixel Art",
+      "keywords": [
+        "pixel art",
+        "pixel"
+      ],
+      "dimensions": {
+        "category": "digital",
+        "style_type": "retro",
+        "resolution": "low"
+      },
+      "examples": [
+        "This is a figure and landscape painting with a strong retro digital art feel, presenting a unique old-school grid pixel style, depicting a blonde woma",
+        "This image presents an everyday character portrait with the texture of retro old grid pixels, resembling a vintage digital doodle created in early com",
+        "A retro grid pixel art style portrait of two schoolgirls sharing a pink earphone against a blue water background. The image is outlined with obvious j"
+      ]
+    },
+    {
+      "id": "retro_style",
+      "name": "复古风格",
+      "name_en": "Retro Style",
+      "keywords": [
+        "retro",
+        "vintage"
+      ],
+      "dimensions": {
+        "category": "aesthetic",
+        "era": "retro",
+        "style_type": "nostalgic"
+      },
+      "examples": [
+        "This is an outdoor travel-style photography image presenting a Glazed Pupil Doll style. The composition cleverly places a doll subject with a slice-of",
+        "A miniature kitchen scene full of life in the glazed eye doll style. In the center are three doll girls with large-head-small-body proportions and ico",
+        "This is a still-life image of a miniature kitchen scene full of life, perfectly showcasing the visual characteristics of the glazed eye doll style. Th"
+      ]
+    },
+    {
+      "id": "cinematic",
+      "name": "电影感",
+      "name_en": "Cinematic",
+      "keywords": [
+        "cinematic",
+        "filmic",
+        "movie still"
+      ],
+      "dimensions": {
+        "category": "photography",
+        "lighting": "dramatic",
+        "composition": "film"
+      },
+      "examples": [
+        "This is a close-up portrait presenting a glazed-eye doll style. The main subject is a doll with straight bangs and black hair, set against a dark gree",
+        "The image presents an interesting, slice-of-life scene in the style of trendy art toys and glazed makeup dolls, capturing a daily moment of two dolls ",
+        "This is a half-body double portrait presenting the visual aesthetic of trendy toy glazed makeup dolls. The main subjects are a male and a female custo"
+      ]
+    },
+    {
+      "id": "film_grain",
+      "name": "胶片颗粒",
+      "name_en": "Film Grain",
+      "keywords": [
+        "film grain",
+        "grain",
+        "film texture"
+      ],
+      "dimensions": {
+        "category": "texture",
+        "medium": "film",
+        "effect": "grainy"
+      },
+      "examples": [
+        "This is a doll portrait photography in the glazed pupil doll style. In the center of the image is a doll with a large-head-small-body proportion, poss",
+        "A portrait of a large-headed doll in the glazed pupil doll style. It features dark brown skin, long light blonde hair, enormous green glass-textured e",
+        "This is a doll portrait showcasing the glazed pupil doll style. The protagonist of the image is a doll with an exaggerated head-to-body ratio, present"
+      ]
+    },
+    {
+      "id": "studio_portrait",
+      "name": "棚拍肖像",
+      "name_en": "Studio Portrait",
+      "keywords": [
+        "studio portrait",
+        "studio lighting",
+        "studio photo"
+      ],
+      "dimensions": {
+        "category": "photography",
+        "setting": "studio",
+        "subject": "portrait"
+      },
+      "examples": []
+    },
+    {
+      "id": "studio_lighting",
+      "name": "棚拍灯光",
+      "name_en": "Studio Lighting",
+      "keywords": [
+        "studio lighting",
+        "soft studio"
+      ],
+      "dimensions": {
+        "category": "lighting",
+        "setting": "studio",
+        "quality": "soft"
+      },
+      "examples": [
+        "This is a fashion still-life portrait presenting the 'Trendy Art Toy, Glazed Makeup Doll' style. At the center is a dark-skinned doll with distinctive",
+        "The image presents a street scene with the playful, slice-of-life atmosphere of a paper-cut miniature picture book. The entire neighborhood corner is ",
+        "This is a close-up still-life image featuring the fun, slice-of-life vibe of a flocked cloth doll. At the center of the frame is an anthropomorphic mo"
+      ]
+    },
+    {
+      "id": "natural_lighting",
+      "name": "自然光",
+      "name_en": "Natural Lighting",
+      "keywords": [
+        "natural lighting",
+        "natural light"
+      ],
+      "dimensions": {
+        "category": "lighting",
+        "setting": "outdoor",
+        "quality": "natural"
+      },
+      "examples": [
+        "This is a street portrait of a doll presenting the glazed pupil doll style. The main subject is a vintage doll with a large-head proportion, wearing a",
+        "The image presents a miniature still-life photography with a warm, slice-of-life feel, perfectly integrating the visual characteristics of the glazed ",
+        "This is a miniature photography image with a 'glazed pupil doll style', showing an exquisite doll with a large head and big eyes standing on a Europea"
+      ]
+    },
+    {
+      "id": "macro_photography",
+      "name": "微距摄影",
+      "name_en": "Macro Photography",
+      "keywords": [
+        "macro photography",
+        "macro",
+        "close-up"
+      ],
+      "dimensions": {
+        "category": "photography",
+        "technique": "macro",
+        "focus": "detail"
+      },
+      "examples": [
+        "This is a macro photography image with a glazed-eye doll style, featuring a big-headed doll with exaggeratedly large eyes and smooth glazed skin stand",
+        "This is an outdoor macro photography image with a glazed-eye doll style, presenting a travel snapshot scene full of interesting slice-of-life vibes. T",
+        "This is a macro photography image featuring a glazed-pupil doll style, showcasing a lifelike moment of an exquisite doll in a natural seaside environm"
+      ]
+    },
+    {
+      "id": "close_up",
+      "name": "特写",
+      "name_en": "Close-up",
+      "keywords": [
+        "close-up",
+        "close up",
+        "closeup"
+      ],
+      "dimensions": {
+        "category": "composition",
+        "framing": "close",
+        "focus": "face"
+      },
+      "examples": [
+        "A close-up photo of a big-headed doll in a glazed-eye doll style standing in front of the Leaning Tower of Pisa, with obvious glazed reflections on he",
+        "A close-up photography of a doll in the glazed-eye doll style, featuring an exaggerated large head, giant glass-like eyes, wearing a burgundy velvet o",
+        "This image presents a typical glazed-eye doll style photography, capturing a close-up of a doll with a tranquil and slightly retro, melancholic atmosp"
+      ]
+    },
+    {
+      "id": "full_body",
+      "name": "全身像",
+      "name_en": "Full-body",
+      "keywords": [
+        "full-body",
+        "full body",
+        "full figure"
+      ],
+      "dimensions": {
+        "category": "composition",
+        "framing": "full",
+        "subject": "figure"
+      },
+      "examples": [
+        "This full-body portrait of two people on a beach showcases a unique retro grid pixel visual aesthetic. The two women, wearing white cutout and high-sl",
+        "This image presents a full-body street portrait imbued with the lifestyle vibe of trendy glazed makeup dolls. The scene cleverly places two fashion do",
+        "A full-body portrait of a Black male doll in a trendy toy glazed makeup doll style, featuring a large-head and slim-waist proportion, glossy resin ski"
+      ]
+    },
+    {
+      "id": "wide_shot",
+      "name": "广角远景",
+      "name_en": "Wide Shot",
+      "keywords": [
+        "wide shot",
+        "wide-angle"
+      ],
+      "dimensions": {
+        "category": "composition",
+        "framing": "wide",
+        "lens": "wide-angle"
+      },
+      "examples": []
+    },
+    {
+      "id": "white_background",
+      "name": "白色背景",
+      "name_en": "White Background",
+      "keywords": [
+        "white background",
+        "white backdrop"
+      ],
+      "dimensions": {
+        "category": "background",
+        "color": "white",
+        "setting": "simple"
+      },
+      "examples": [
+        "This is a still-life portrait of a doll presenting a delicate sense of daily life, perfectly demonstrating the visual characteristics of the \"glazed-e",
+        "This is a lifestyle image with the rough digital doodle temperament of the old square pixel era, showing an indoor scene of a mirror selfie. The main ",
+        "This is an indoor lifestyle portrait with an old grid pixel aesthetic, presenting a naive yet vivid visual effect reminiscent of early computer paint "
+      ]
+    },
+    {
+      "id": "pure_white_background",
+      "name": "纯白色背景",
+      "name_en": "Pure White Background",
+      "keywords": [
+        "pure white background",
+        "clean white"
+      ],
+      "dimensions": {
+        "category": "background",
+        "color": "white",
+        "purity": "pure"
+      },
+      "examples": [
+        "This half-body image showcases a highly trendy soft plastic art toy figure style. At the center is a boy doll featuring an exaggerated toy-like propor",
+        "This is an everyday still-life close-up photograph of a human hand holding a 'tooth fluff monster' plush toy. The toy's design parodies a red-and-yell",
+        "The image presents the unique visual temperament of a paper-cut diorama picture book, capturing a slice-of-life scene of a family greeting. A child in"
+      ]
+    },
+    {
+      "id": "glazed_eye_doll",
+      "name": "玻璃眼珠玩偶",
+      "name_en": "Glazed-eye Doll Style",
+      "keywords": [
+        "glazed-eye doll",
+        "glazed eye",
+        "doll style"
+      ],
+      "dimensions": {
+        "category": "special",
+        "subject": "doll",
+        "style_type": "toy"
+      },
+      "examples": [
+        "This is a macro photography image with a glazed-eye doll style, featuring a big-headed doll with exaggeratedly large eyes and smooth glazed skin stand",
+        "A close-up photo of a big-headed doll in a glazed-eye doll style standing in front of the Leaning Tower of Pisa, with obvious glazed reflections on he",
+        "This is an outdoor macro photography image with a glazed-eye doll style, presenting a travel snapshot scene full of interesting slice-of-life vibes. T"
+      ]
+    },
+    {
+      "id": "character_concept",
+      "name": "角色概念设计",
+      "name_en": "Character Concept",
+      "keywords": [
+        "character concept",
+        "concept art"
+      ],
+      "dimensions": {
+        "category": "design",
+        "purpose": "concept",
+        "subject": "character"
+      },
+      "examples": []
+    },
+    {
+      "id": "digital_art",
+      "name": "数字艺术",
+      "name_en": "Digital Art",
+      "keywords": [
+        "digital art",
+        "digital painting"
+      ],
+      "dimensions": {
+        "category": "medium",
+        "type": "digital",
+        "tools": "digital"
+      },
+      "examples": []
+    },
+    {
+      "id": "vintage_style",
+      "name": "复古风格",
+      "name_en": "Vintage Style",
+      "keywords": [
+        "vintage",
+        "old style",
+        "retro"
+      ],
+      "dimensions": {
+        "category": "aesthetic",
+        "era": "vintage",
+        "style_type": "nostalgic"
+      },
+      "examples": [
+        "This is a street portrait of a doll presenting the glazed pupil doll style. The main subject is a vintage doll with a large-head proportion, wearing a",
+        "A street photography portrait of a doll in the glazed pupil doll style. The doll, featuring giant translucent eyes and heavy blush, wears a vintage du",
+        "This is a street-scene doll portrait full of a playful, slice-of-life atmosphere, perfectly presenting the unique visual temperament of the glazed pup"
+      ]
+    },
+    {
+      "id": "extreme_close_up",
+      "name": "超近景",
+      "name_en": "Extreme Close-up",
+      "keywords": [
+        "extreme close-up",
+        "extreme close up"
+      ],
+      "dimensions": {
+        "category": "composition",
+        "framing": "extreme",
+        "focus": "detail"
+      },
+      "examples": []
+    },
+    {
+      "id": "full_body_front",
+      "name": "正面全身像",
+      "name_en": "Full-body Front View",
+      "keywords": [
+        "full-body front view",
+        "full body front"
+      ],
+      "dimensions": {
+        "category": "composition",
+        "framing": "full",
+        "angle": "front"
+      },
+      "examples": []
+    },
+    {
+      "id": "studio_portrait_realism",
+      "name": "棚拍写实肖像",
+      "name_en": "Studio Portrait Realism",
+      "keywords": [
+        "studio portrait realism",
+        "realistic studio"
+      ],
+      "dimensions": {
+        "category": "photography",
+        "setting": "studio",
+        "realism": "high"
+      },
+      "examples": []
+    },
+    {
+      "id": "photorealistic_character",
+      "name": "照片级角色概念",
+      "name_en": "Photorealistic Character Concept Art",
+      "keywords": [
+        "photorealistic character concept art",
+        "photorealistic concept"
+      ],
+      "dimensions": {
+        "category": "design",
+        "realism": "high",
+        "subject": "character"
+      },
+      "examples": []
+    },
+    {
+      "id": "comic_book",
+      "name": "漫画风格",
+      "name_en": "Comic Book Style",
+      "keywords": [
+        "comic book",
+        "comic"
+      ],
+      "dimensions": {
+        "category": "illustration",
+        "style_type": "comic",
+        "medium": "print"
+      },
+      "examples": []
+    },
+    {
+      "id": "pencil_sketch",
+      "name": "铅笔素描",
+      "name_en": "Pencil Sketch",
+      "keywords": [
+        "pencil drawing",
+        "pencil sketch"
+      ],
+      "dimensions": {
+        "category": "drawing",
+        "medium": "pencil",
+        "finish": "sketch"
+      },
+      "examples": []
+    },
+    {
+      "id": "soft_lighting",
+      "name": "柔和灯光",
+      "name_en": "Soft Lighting",
+      "keywords": [
+        "soft lighting",
+        "soft light"
+      ],
+      "dimensions": {
+        "category": "lighting",
+        "quality": "soft",
+        "type": "diffused"
+      },
+      "examples": []
+    },
+    {
+      "id": "outdoor_scene",
+      "name": "户外场景",
+      "name_en": "Outdoor Scene",
+      "keywords": [
+        "outdoor",
+        "outside",
+        "external"
+      ],
+      "dimensions": {
+        "category": "setting",
+        "location": "outdoor",
+        "lighting": "natural"
+      },
+      "examples": []
+    },
+    {
+      "id": "portrait_photography",
+      "name": "肖像摄影",
+      "name_en": "Portrait Photography",
+      "keywords": [
+        "portrait photography",
+        "portrait photo"
+      ],
+      "dimensions": {
+        "category": "photography",
+        "subject": "portrait",
+        "type": "photo"
+      },
+      "examples": [
+        "This is a vintage dual-portrait illustration with a strong 'old magazine black line' style, capturing a vivid and dramatic slice-of-life moment with a"
+      ]
+    },
+    {
+      "id": "fashion_photography",
+      "name": "时尚摄影",
+      "name_en": "Fashion Photography",
+      "keywords": [
+        "fashion",
+        "fashion photo"
+      ],
+      "dimensions": {
+        "category": "photography",
+        "genre": "fashion",
+        "style_type": "glamour"
+      },
+      "examples": []
+    },
+    {
+      "id": "concept_art",
+      "name": "概念艺术",
+      "name_en": "Concept Art",
+      "keywords": [
+        "concept art",
+        "concept design"
+      ],
+      "dimensions": {
+        "category": "design",
+        "purpose": "concept",
+        "phase": "development"
+      },
+      "examples": []
+    },
+    {
+      "id": "digital_painting",
+      "name": "数字绘画",
+      "name_en": "Digital Painting",
+      "keywords": [
+        "digital painting",
+        "digital paint"
+      ],
+      "dimensions": {
+        "category": "medium",
+        "type": "digital",
+        "technique": "painting"
+      },
+      "examples": []
+    },
+    {
+      "id": "graphic_illustration",
+      "name": "平面插画",
+      "name_en": "Graphic Illustration",
+      "keywords": [
+        "illustration",
+        "illustrated"
+      ],
+      "dimensions": {
+        "category": "illustration",
+        "medium": "digital",
+        "style_type": "graphic"
+      },
+      "examples": [
+        "The image presents a 'Qiaoxiancai' illustration style full of interesting life-like charm. The main subjects are a bright yellow kettle and two stick-",
+        "The image presents a relaxing 'Soft Brush Fun' illustration style, depicting a scene of a person and a dog resting indoors. A boy in a red and white s",
+        "This image showcases a typical \"Showa era children's book\" illustration style, depicting a whimsical scene of a blonde girl in a pink dress kneeling w"
+      ]
+    },
+    {
+      "id": "high_detail",
+      "name": "高细节",
+      "name_en": "High Detail",
+      "keywords": [
+        "high detail",
+        "detailed",
+        "intricate"
+      ],
+      "dimensions": {
+        "category": "quality",
+        "detail_level": "high",
+        "focus": "texture"
+      },
+      "examples": []
+    },
+    {
+      "id": "dramatic_lighting",
+      "name": "戏剧性灯光",
+      "name_en": "Dramatic Lighting",
+      "keywords": [
+        "dramatic lighting",
+        "dramatic light"
+      ],
+      "dimensions": {
+        "category": "lighting",
+        "mood": "dramatic",
+        "contrast": "high"
+      },
+      "examples": []
+    }
+  ]
+}
